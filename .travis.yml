@@ -9,3 +9,5 @@ r_packages:
   - covr
 after_success:
   - Rscript -e 'library(covr); codecov()'
+  - coverage combine
+  - coveralls
