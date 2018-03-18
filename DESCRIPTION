@@ -1,13 +1,13 @@
 Package: regscoreR
 Title: Regression Scores
 Version: 1.0
-Authors@R: as.person(c(
-            "Simran Sethi <simrannsethi@gmail.com> [aut]",
-            "Ha Dinh <dinhhn.ubc@gmail.com> [aut, cre]",
-            "Ruoqi Xu <xuruoqi@yahoo.com> [aut]"
-            ))
+Authors@R: c(
+    person("Simran", "Sethi", , email="simrannsethi@gmail.com", role=c("aut", "cre")),
+    person("Ha", "Dinh", , email="dinhhn.ubc@gmail.coma", role=c("aut")),
+    person("Ruoqi", "Xu", , email="xuruoqi@yahoo.com", role=c("aut"))
+    )
 Description: An R package to compute scores for different regression models.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
@@ -17,3 +17,4 @@ Suggests:
 RoxygenNote: 6.0.1
 VignetteBuilder: knitr
 URL: https://github.com/UBC-MDS/regscoreR
+BugReports: https://github.com/UBC-MDS/regscoreR/issues

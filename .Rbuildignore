@@ -1,3 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.travis\.yml$
+^CHANGES\.md$
+^CODE_OF_CONDUCT\.md$
+^CONTRIBUTING\.md$
+^doc$
